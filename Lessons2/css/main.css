@@ -1,41 +1,56 @@
 .top_block {
-    background: #246abc;
     display: flex;
+    background: #246abc;
     color: white;
-    width: 530px;
-    height: 217px;
+    flex-basis: 525px; height: 217px;
+    margin: 14px;
+    align-items: center;
+    justify-content: center;
 }
 
 .average_block {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
+
+p { font: normal small-caps 24px/30px fantasy; }
 
 .average_block_1 {
     background: #18467b;
     color: white;
-    width: 160px;
-    height: 217px;
+    flex-basis: 525px; height: 217px;
+    display: flex;
+    margin-right: 14px;
+    margin-left: 14px;
+    align-items: center;
+    justify-content: center;
 }
 
 .average_block_2 {
     background: #18467b;
     color: white;
-    width: 160px;
-    height: 217px;
+    flex-basis: 525px; height: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .average_block_3 {
     background: #18467b;
     color: white;
-    width: 160px;
-    height: 217px;
+    flex-basis: 525px; height: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    margin-left: 14px;
 }
 
 .bottom_block {
     background: #246abc;
     color: white;
-    width: 530px;
-    height: 434px;
+    flex-basis: 525px; height: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px;
 }
