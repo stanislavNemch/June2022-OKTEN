@@ -1,0 +1,41 @@
+.top_block {
+    background: #246abc;
+    display: flex;
+    color: white;
+    width: 530px;
+    height: 217px;
+}
+
+.average_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.average_block_1 {
+    background: #18467b;
+    color: white;
+    width: 160px;
+    height: 217px;
+}
+
+.average_block_2 {
+    background: #18467b;
+    color: white;
+    width: 160px;
+    height: 217px;
+}
+
+.average_block_3 {
+    background: #18467b;
+    color: white;
+    width: 160px;
+    height: 217px;
+}
+
+.bottom_block {
+    background: #246abc;
+    color: white;
+    width: 530px;
+    height: 434px;
+}
