@@ -1,0 +1,147 @@
+.bottom {
+    background: #06bcd4;
+    display: block;
+    width: 700px;
+    height: 420px;
+}
+
+.block_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.block_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.block_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.web_design {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.web_develop {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.conversion_services {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.wordpress_development {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.identity_designs {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.social_media {
+    display: block;
+    background: white;
+    width: 325px;
+    height: 90px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+img {
+    padding: 2px 2px 2px 2px;
+    float:left;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding-left: 20px;
+    width: 40px;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding-top: 2px;
+    color: #b1b1b1;
+    font-family: Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 12px;
+    color: #ffaa4b;
+}
+
+.web_design_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.web_develop_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.conversion_services_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.wordpress_development_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.identity_designs_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.social_media_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
