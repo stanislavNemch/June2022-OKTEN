@@ -12,6 +12,11 @@
     display: flex;
 }
 
+body {
+    max-width: 600px;
+    min-width: 525px;
+}
+
 p { font: normal small-caps 24px/30px fantasy; }
 
 .average_block_1 {
