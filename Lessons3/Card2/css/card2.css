@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    height: 750px;
+    background: #ced8e1;
+}
+
+.high {
+    width: 100%;
+    height: 400px;
+    background: #102b3e;
+    position: absolute;
+    top: 100px;
+}
+
+.target {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #6964e2;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.top {
+    width: 100px;
+    height: 35px;
+    background: #102b3e;
+    position: absolute;
+    border-radius: 7px;
+    /*margin: 40px 60px;*/
+    top: 5%;
+    left: 10%;
+}
+
+.top-icon {
+    position: absolute;
+    margin: 0;
+    top: 6%;
+    left: 90%;
+}
