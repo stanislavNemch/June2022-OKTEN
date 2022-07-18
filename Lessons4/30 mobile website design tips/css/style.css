@@ -307,5 +307,6 @@ body {
         background: black;
         position: relative;
         margin-top: -125px;
+        margin-right: 5px;
     }
 }
