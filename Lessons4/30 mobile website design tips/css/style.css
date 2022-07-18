@@ -1,0 +1,311 @@
+
+body {
+    /*overflow: hidden;*/
+}
+
+.all_element_body {
+    width: 100%;
+    margin: 5px;
+    color: white;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    height: 125px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    width: 80%;
+    height: 125px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    /*background: #01ffff;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.navStoreTools {
+    display: flex;
+    width: 20%;
+    height: 795px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navStoreTools_new {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.store {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: black;
+}
+
+.tools {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.bathAdTypeRela {
+    display: flex;
+    width: 80%;
+    height: 795px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.bathAd {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.bath {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    background: black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad {
+    display: flex;
+    width: 20%;
+    height: 200px;
+    background: black;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.typesRel {
+    display: flex;
+    width: 100%;
+    height: 585px;
+}
+
+.types {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.related {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    width: 99.7%;
+    height: 125px;
+    background: black;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+
+  .all_element_body {
+        width: 475px;
+        margin: 5px;
+        color: white;
+    }
+    .top {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        display: flex;
+        width: 20%;
+        height: 60px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+        margin: 2px;
+    }
+
+    .header {
+        display: flex;
+        width: 80%;
+        height: 60px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+        margin: 2px;
+    }
+    .navStoreTools {
+        position: absolute;
+    }
+    .nav {
+        width: 470px;
+        height: 60px;
+        background: black;
+        position: relative;
+        margin-bottom: 100px;
+        margin-left: 10px;
+    }
+    .bathAdTypeRela {
+        position: absolute;
+    }
+
+    .bathAd {
+        display: flex;
+        width: 475px;
+        height: 100px;
+        flex-direction: row;
+        margin-top: -110px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bath {
+        display: flex;
+        width: 420px;
+        height: 100px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .ad {
+        display: flex;
+        width: 80px;
+        height: 100px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .typesRel {
+        display: flex;
+        width: 585px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 120px;
+    }
+    .types {
+        display: flex;
+        width: 470px;
+        height: 200px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+        margin-top: -8px;
+        margin-bottom: 8px;
+    }
+    .related {
+        display: flex;
+        width: 470px;
+        height: 200px;
+        background: black;
+        justify-content: center;
+        align-items: center;
+    }
+    .navStoreTools_new {
+        display: flex;
+        width: 475px;
+        height: 60px;
+        flex-direction: row;
+        margin-top: 300px;
+        margin-bottom: 245px;
+        margin-right: 5px;
+    }
+    .store {
+        display: flex;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin-left: 5px;
+        margin-top: 265px;
+    }
+    .tools {
+        display: flex;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin-left: 5px;
+        margin-top: 260px;
+    }
+    .footer {
+        width: 470px;
+        height: 80px;
+        background: black;
+        position: relative;
+        margin-top: -125px;
+    }
+}
