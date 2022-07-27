@@ -6,7 +6,7 @@ let bookObjectOne = {
     authors: [
         {name: 'NameOne', age: 36},
         {name: 'NameOne1', age: 40},
-        {name: 'NameOne2', age: 44}
+        {name: 'NameOne2', age: 45}
     ]
 }
 
