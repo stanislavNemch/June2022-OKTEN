@@ -275,8 +275,8 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
-document.write(`<div class="task"><pre>
-- користувачів зі статусом true</pre></div>`);
+document.write(`<div class="task">
+- користувачів зі статусом true</div>`);
 document.write(`<hr>`);
 
 for (const user of users) {
@@ -286,8 +286,8 @@ for (const user of users) {
 }
 
 document.write(`<hr>`);
-document.write(`<div class="task"><pre>
-- користувачів зі статусом false</pre></div>`);
+document.write(`<div class="task">
+- користувачів зі статусом false</div>`);
 document.write(`<hr>`);
 
 for (const user of users) {
@@ -297,8 +297,8 @@ for (const user of users) {
 }
 
 document.write(`<hr>`);
-document.write(`<div class="task"><pre>
-- користувачів які старші за 30 років</pre></div>`);
+document.write(`<div class="task">
+- користувачів які старші за 30 років</div>`);
 document.write(`<hr>`);
 
 for (const user of users) {
