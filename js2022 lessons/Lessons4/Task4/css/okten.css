@@ -1,0 +1,33 @@
+div {
+    margin: 5px;
+}
+
+.task {
+    border: 1px solid red;
+    background: #cccccc;
+}
+
+h1 {
+    font-size: medium;
+    margin: 5px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 250px;
+}
+
+.product-card {
+    border: 2px solid goldenrod;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.product-image {
+    width: 80%;
+
+}
