@@ -1,4 +1,4 @@
-// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами, а і б
 
 function calculatingAreaRectangle(a, b){
     return (a * b);
@@ -16,13 +16,13 @@ function calculatingAreaCircle(r){
 document.write(`Площа кола з радіусом r = 6: ` + calculatingAreaCircle( 6));
 document.write(`<hr>`);
 
-// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіусом r
 
 function calculatingAreaCylinder(h, r){
     return (Math.round(2 * Math.PI * h * r));
 }
 
-document.write(`Площа циліндру висотою h = 4, та радіутом r = 6: ` + calculatingAreaCylinder( 4, 6));
+document.write(`Площа циліндру висотою h = 4, та радіусом r = 6: ` + calculatingAreaCylinder( 4, 6));
 document.write(`<hr>`);
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
@@ -92,11 +92,11 @@ let arrayPrEl = [true, `error`, 45, false, `next li`, -69];
 printArrayPrimitiveElements(arrayPrEl);
 document.write(`<hr>`);
 
-// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
+// - створити функцію яка приймає масив об'єктів з наступними полями id, name, age,
 // та виводить їх в документ. Для кожного об'єкту окремий блок.
 
 let arrayObj = [
-    {id: 1, name: 'vasya', age: 31},
+    {id: 1,name: 'vasya', age: 31},
     {id: 2,name: 'petya', age: 30},
     {id: 3,name: 'kolya', age: 29},
     {id: 4,name: 'olya', age: 28},
