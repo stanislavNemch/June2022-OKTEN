@@ -1,0 +1,30 @@
+h2 {
+    background-color: #cccccc;
+}
+
+h3 {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.users-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.user-block {
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px
+}
+
+.address-block {
+    background-color: aquamarine;
+}
