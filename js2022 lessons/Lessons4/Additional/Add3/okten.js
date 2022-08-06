@@ -601,3 +601,17 @@ let array = [
         body: 'cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut'
     }
 ];
+
+document.write(`<div class="wrap">`);
+
+for (let i = 0; i < array.length; i++) {
+
+        document.write(`<div class="post-card">`);
+
+        document.write(`<h3>${array[i].id} - ${array[i].title}</h3>`);
+        document.write(`<p>${array[i].body}</p>`);
+
+        document.write(`</div>`);
+}
+
+document.write(`</div>`);

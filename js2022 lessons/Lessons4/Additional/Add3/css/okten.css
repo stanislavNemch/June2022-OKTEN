@@ -1,3 +1,23 @@
-div {
-    margin: 5px;
+h3 {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.post-card {
+    width: 200px;
+    background: lightgrey;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px
 }
