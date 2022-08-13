@@ -130,12 +130,70 @@ let filterArr = filter(coursesAndDurationArray, (item) => item.monthDuration > 5
 filterArr.forEach(value => document.write(value.title + value.monthDuration + "<br>"));
 document.write(`<hr>`);
 
-
-// Я в карты честно не играл и незнаю масти, если дадите готовый массив, то обработаю :)
-// играл за всю жизнь только в UNO :)
-
 // описати колоду карт
-// - знайти піковий туз
+
+let cards = [
+    {cardSuit: 'clubs', value: 'Ace', color:'black'},
+    {cardSuit: 'clubs', value: 2, color:'black'},
+    {cardSuit: 'clubs', value: 3, color:'black'},
+    {cardSuit: 'clubs', value: 4, color:'black'},
+    {cardSuit: 'clubs', value: 5, color:'black'},
+    {cardSuit: 'clubs', value: 6, color:'black'},
+    {cardSuit: 'clubs', value: 7, color:'black'},
+    {cardSuit: 'clubs', value: 8, color:'black'},
+    {cardSuit: 'clubs', value: 9, color:'black'},
+    {cardSuit: 'clubs', value: 10, color:'black'},
+    {cardSuit: 'clubs', value: 'Jack', color:'black'},
+    {cardSuit: 'clubs', value: 'Queen', color:'black'},
+    {cardSuit: 'clubs', value: 'King', color:'black'},
+
+    {cardSuit: 'diamonds', value: 'Ace', color:'red'},
+    {cardSuit: 'diamonds', value: 2, color:'red'},
+    {cardSuit: 'diamonds', value: 3, color:'red'},
+    {cardSuit: 'diamonds', value: 4, color:'red'},
+    {cardSuit: 'diamonds', value: 5, color:'red'},
+    {cardSuit: 'diamonds', value: 6, color:'red'},
+    {cardSuit: 'diamonds', value: 7, color:'red'},
+    {cardSuit: 'diamonds', value: 8, color:'red'},
+    {cardSuit: 'diamonds', value: 9, color:'red'},
+    {cardSuit: 'diamonds', value: 10, color:'red'},
+    {cardSuit: 'diamonds', value: 'Jack', color:'red'},
+    {cardSuit: 'diamonds', value: 'Queen', color:'red'},
+    {cardSuit: 'diamonds', value: 'King', color:'red'},
+
+    {cardSuit: 'hearts', value: 'Ace', color:'red'},
+    {cardSuit: 'hearts', value: 2, color:'red'},
+    {cardSuit: 'hearts', value: 3, color:'red'},
+    {cardSuit: 'hearts', value: 4, color:'red'},
+    {cardSuit: 'hearts', value: 5, color:'red'},
+    {cardSuit: 'hearts', value: 6, color:'red'},
+    {cardSuit: 'hearts', value: 7, color:'red'},
+    {cardSuit: 'hearts', value: 8, color:'red'},
+    {cardSuit: 'hearts', value: 9, color:'red'},
+    {cardSuit: 'hearts', value: 10, color:'red'},
+    {cardSuit: 'hearts', value: 'Jack', color:'red'},
+    {cardSuit: 'hearts', value: 'Queen', color:'red'},
+    {cardSuit: 'hearts', value: 'King', color:'red'},
+    {value: 'Joker', color:'red'},
+
+    {cardSuit: 'spades', value: 'Ace', color:'black'},
+    {cardSuit: 'spades', value: 2, color:'black'},
+    {cardSuit: 'spades', value: 3, color:'black'},
+    {cardSuit: 'spades', value: 4, color:'black'},
+    {cardSuit: 'spades', value: 5, color:'black'},
+    {cardSuit: 'spades', value: 6, color:'black'},
+    {cardSuit: 'spades', value: 7, color:'black'},
+    {cardSuit: 'spades', value: 8, color:'black'},
+    {cardSuit: 'spades', value: 9, color:'black'},
+    {cardSuit: 'spades', value: 10, color:'black'},
+    {cardSuit: 'spades', value: 'Jack', color:'black'},
+    {cardSuit: 'spades', value: 'Queen', color:'black'},
+    {cardSuit: 'spades', value: 'King', color:'black'},
+    {value: 'Joker', color:'black'},
+
+];
+
+// - знайти піковий туз (spades)
 // - всі шістки
 // - всі червоні карти
 // - всі буби
