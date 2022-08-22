@@ -1,0 +1,21 @@
+<div class="body_div">
+
+    <div class="top_div">ð</div>
+
+    <div class="medium_div">
+        <div class="medium_div_one">one</div>
+        <div class="medium_div_two">two</div>
+    </div>
+
+    <div class="bottom_div">
+        <div class="bottom_div_one">one</div>
+        <div class="bottom_div_two">two</div>
+        <div class="bottom_div_three">two</div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</div>
