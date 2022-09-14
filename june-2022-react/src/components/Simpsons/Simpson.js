@@ -1,5 +1,7 @@
 function Simpson(props) {
+
     const {simpson} = props;
+
     return (
         <div>
                 <h3>{simpson.name} -- {simpson.age}</h3>
