@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b93b40-97e5-4bcd-bb58-0d34cf00f25e" name="Changes" comment="mini_project is done!">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LessonsHtml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2022 lessons/Lessons1/Person/okten.js" beforeDir="false" afterPath="$PROJECT_DIR$/js2022 lessons/Lessons1/Person/okten.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +39,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Stas/Education/OKTEN SCHOOL/June2022-html/HomeWork/Lessons_2/js2022 lessons/Additioanl Tasks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Stas/Education/OKTEN SCHOOL/June2022-html/HomeWork/Lessons_2/Database&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mongo&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -123,7 +126,26 @@
       <workItem from="1661353853023" duration="14000" />
       <workItem from="1661613514557" duration="17582000" />
       <workItem from="1661665787117" duration="27842000" />
-      <workItem from="1661754498132" duration="3878000" />
+      <workItem from="1661754498132" duration="4337000" />
+      <workItem from="1661802454188" duration="1514000" />
+      <workItem from="1661877702408" duration="803000" />
+      <workItem from="1661881280786" duration="3372000" />
+      <workItem from="1661890863750" duration="4201000" />
+      <workItem from="1661896654487" duration="20000" />
+      <workItem from="1661974087287" duration="6175000" />
+      <workItem from="1662044848113" duration="6535000" />
+      <workItem from="1662102115220" duration="2842000" />
+      <workItem from="1662296854638" duration="3902000" />
+      <workItem from="1662305001793" duration="11103000" />
+      <workItem from="1662367566541" duration="13657000" />
+      <workItem from="1662452021387" duration="25000" />
+      <workItem from="1662565434034" duration="4245000" />
+      <workItem from="1662573354161" duration="7275000" />
+      <workItem from="1662621530387" duration="1381000" />
+      <workItem from="1662657859150" duration="1979000" />
+      <workItem from="1662673133397" duration="599000" />
+      <workItem from="1662738926184" duration="1676000" />
+      <workItem from="1662756544364" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <created>1657276414227</created>
@@ -454,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661774852422</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="mini_project is done!">
+      <created>1661774977008</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1661774977008</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,5 +538,9 @@
     <MESSAGE value="task 9 is done!" />
     <MESSAGE value="mini_project is done!" />
     <option name="LAST_COMMIT_MESSAGE" value="mini_project is done!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
