@@ -1,11 +1,11 @@
 import './App.css';
-import User from "./components/User";
+import Simpsons from "./components/Simpsons/Simpsons";
 
 function App() {
   return (
     <div>
-        <h1>Hello world</h1>
-        <User/>
+        <h1>Симпсоны</h1>
+        <Simpsons/>
     </div>
   );
 }
