@@ -1,12 +1,13 @@
-import './User.css';
-export default function User() {
+export default function User(props) {
+    let {item: user} = props; //подмена названия item на user
+
     return (
         <div>
-
-            <h2>user</h2>
-
-            <p>Sma text in this block</p>
+            <h2>{user.id} -- {user.name} </h2>
+            <p>{user.address.city} <br/> {user.email}</p>
 
         </div>
     );
 }
+
+//Созданно для вывода структуры данных, шаблон
