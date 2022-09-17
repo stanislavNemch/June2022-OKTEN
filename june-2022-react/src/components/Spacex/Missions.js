@@ -1,12 +1,14 @@
 import {useEffect, useState} from "react";
 import {getMissions} from "../../services/spacexdata.api.service";
 import Mission from "../Spacex/Mission";
+// import {getMissionsAxios} from "../../services/spacexdata.api.axinos.service";
 
 export default function Missions() {
     let [missions, setMissions] = useState([]);// [get,set()]
 
     useEffect(() => {  //useEffect это хук выполняется один раз, чем отдельно fetch
         getMissions().then(value => setMissions(value));
+        // getMissionsAxios().then(value => setMissions(value.data));
     },[])
 
     return (
