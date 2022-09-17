@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {getMissions} from "../../services/api.spacexdata.service";
+import {getMissions} from "../../services/spacexdata.api.service";
 import Mission from "../Spacex/Mission";
 
 export default function Missions() {
