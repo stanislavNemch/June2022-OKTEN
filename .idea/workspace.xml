@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b93b40-97e5-4bcd-bb58-0d34cf00f25e" name="Changes" comment="mini_project is done!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2022 lessons/Lessons1/Person/okten.js" beforeDir="false" afterPath="$PROJECT_DIR$/js2022 lessons/Lessons1/Person/okten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/june-2022-react/src/components/User/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/june-2022-react/src/components/User/UsersPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/june-2022-react/src/services/post.api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-2022-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/june-2022-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-2022-react/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/june-2022-react/src/components/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-2022-react/src/components/User/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/june-2022-react/src/components/User/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-2022-react/src/services/user.api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/june-2022-react/src/services/user.api.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +151,7 @@
       <workItem from="1662673133397" duration="599000" />
       <workItem from="1662738926184" duration="1676000" />
       <workItem from="1662756544364" duration="31000" />
+      <workItem from="1663620009420" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <created>1657276414227</created>

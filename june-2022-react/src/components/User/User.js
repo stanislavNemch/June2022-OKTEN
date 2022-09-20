@@ -1,5 +1,5 @@
 export default function User(props) {
-    let {item: user, lift} = props; //подмена названия item на user
+    let {user, botUser, postUser} = props; //Передача функций
 
     return (
         <div>
@@ -7,9 +7,12 @@ export default function User(props) {
             <p>{user.address.city} <br/> {user.email}</p>
 
             <button onClick = {() => {
-                lift(user);
+                botUser(user);
             }}>datailis</button>
 
+            <button onClick = {() => {
+                postUser(user.id);
+            }}>Post User</button>
         </div>
     );
 }
