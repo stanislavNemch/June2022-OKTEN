@@ -12,7 +12,7 @@ export default function User(props) {
 
             <button onClick = {() => {
                 postUser(user.id);
-            }}>Post User</button>
+            }}>Posts User</button>
         </div>
     );
 }
